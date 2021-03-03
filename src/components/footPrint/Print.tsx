@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { layer, Interactions, Layers, interaction } from "react-openlayers";
 import * as ol from "openlayers";
-import Image from "../TileImage/image";
+
 
 
 type Props = {
