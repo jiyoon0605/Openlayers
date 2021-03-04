@@ -13,12 +13,8 @@ const Print :React.FC<Props>= ({ map, coords}) => {
   
   const [zoom, setZoom] = useState(3);
   const [rotation, setRotation] = useState(0);
-  const [reRend, setReRend] = useState(false);
   const [angle, setAngle] = useState(0);
 
-  useEffect(() => {
-    setReRend(!reRend);
-  }, [zoom, angle, rotation]);
   useEffect(() => {
     map.current.map.on("moveend", (e:any) => {
       setZoom(e.map.getView().getZoom());
