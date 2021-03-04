@@ -1,6 +1,6 @@
 import { Map, layer, Layers } from "react-openlayers";
 import * as ol from "openlayers";
-import Image from "./image";
+import Image from "./img";
 
 const TileImage = () => {
   const coords:ol.Coordinate[] = [
