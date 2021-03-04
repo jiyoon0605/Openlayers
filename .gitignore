@@ -27,3 +27,4 @@ image/
 image.tsx
 Map.jsx
 TileImage/
+util.ts
